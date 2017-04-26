@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B237CC71EB0424E003EFE2D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B237CC61EB0424E003EFE2D /* OtherViewController.swift */; };
 		3B3B0C651EB04062001635C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B0C641EB04062001635C4 /* AppDelegate.swift */; };
 		3B3B0C671EB04062001635C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B0C661EB04062001635C4 /* ViewController.swift */; };
 		3B3B0C6A1EB04062001635C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3B0C681EB04062001635C4 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B237CC61EB0424E003EFE2D /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		3B3B0C611EB04062001635C4 /* PassDataWithUnwindSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassDataWithUnwindSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3B0C641EB04062001635C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B3B0C661EB04062001635C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				3B3B0C641EB04062001635C4 /* AppDelegate.swift */,
 				3B3B0C661EB04062001635C4 /* ViewController.swift */,
+				3B237CC61EB0424E003EFE2D /* OtherViewController.swift */,
 				3B3B0C681EB04062001635C4 /* Main.storyboard */,
 				3B3B0C6B1EB04062001635C4 /* Assets.xcassets */,
 				3B3B0C6D1EB04062001635C4 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B3B0C671EB04062001635C4 /* ViewController.swift in Sources */,
+				3B237CC71EB0424E003EFE2D /* OtherViewController.swift in Sources */,
 				3B3B0C651EB04062001635C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				3B3B0C8B1EB04062001635C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B3B0C8C1EB04062001635C4 /* Build configuration list for PBXNativeTarget "PassDataWithUnwindSegueTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				3B3B0C8E1EB04062001635C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B3B0C8F1EB04062001635C4 /* Build configuration list for PBXNativeTarget "PassDataWithUnwindSegueUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				3B3B0C911EB04062001635C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
